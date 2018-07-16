@@ -1,0 +1,23 @@
+{
+  "name": "vuejs-spa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssavitski/vuejs-spa.git"
+  },
+  "keywords": [],
+  "author": "Siarhei Savitski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssavitski/vuejs-spa/issues"
+  },
+  "homepage": "https://github.com/ssavitski/vuejs-spa#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {}
+}
