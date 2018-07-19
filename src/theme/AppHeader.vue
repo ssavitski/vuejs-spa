@@ -6,10 +6,16 @@
              alt="Vue SPA" />
       </router-link>
 
-      <router-link to="/"
+      <router-link to="/category/front-end"
                    exact
                    class="nav-item is-tab">
-        Home
+        Front-end
+      </router-link>
+
+      <router-link to="/category/mobile"
+                   exact
+                   class="nav-item is-tab">
+        Mobile
       </router-link>
 
       <router-link to="/login"

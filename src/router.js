@@ -11,7 +11,7 @@ const router = new VueRouter({
   linkActiveClass: 'is-active',
   scrollBehavior: () => ({ y: 0 }),
   routes: [
-    { path: '/category/front-end', component: Category },
+    { path: '/category/:id', component: Category },
     { path: '/login', component: Login },
     { path: '/', redirect: '/category/front-end' },
   ],
