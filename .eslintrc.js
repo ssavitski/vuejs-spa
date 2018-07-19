@@ -17,5 +17,6 @@ module.exports = {
   },
   globals: {
     "System": true,
+    "Promise": true,
   },
 };
