@@ -13,5 +13,6 @@ module.exports = {
   rules: {
     "semi": [ 2, "always" ],
     "comma-dangle": ["error", "always-multiline"],
+    "space-before-function-paren": ["error", "never"],
   },
 };
