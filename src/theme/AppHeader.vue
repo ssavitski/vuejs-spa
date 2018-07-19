@@ -20,8 +20,27 @@
 
       <router-link to="/login"
                    class="nav-item is-tab">
-        Login
+        <span v-if="!isAuthenticated">Login</span>
+        <span v-else>Logout</span>
       </router-link>
     </div>
   </nav>
 </template>
+
+<script>
+  import eventBus from '../event-bus';
+
+  export default {
+    data() {
+      return {
+        isAuthenticated: false,
+      };
+    },
+
+    created() {
+      eventBus.$on('authStatusUpdate', isAuthenticated => {
+        this.isAuthenticated = isAuthenticated;
+      });
+    },
+  };
+</script>
