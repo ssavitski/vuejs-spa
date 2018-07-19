@@ -3,7 +3,7 @@
     <nav class="nav has-shadow">
       <div class="container">
         <a href="/">
-          <img src="/img/logo.png"
+          <img src="./../img/logo.png"
                alt="Vue SPA" />
         </a>
       </div>
@@ -16,7 +16,7 @@
         <div class="content has-text-centered">
           Follow us on
           <a href="https://www.facebook.com/siarhei.savitski"
-              target="_blank">Facebook</a>
+             target="_blank">Facebook</a>
         </div>
       </div>
     </footer>
