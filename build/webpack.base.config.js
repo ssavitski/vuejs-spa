@@ -4,6 +4,9 @@ const config = {
   entry: {
     app: path.resolve(__dirname, '../src/client-entry.js'),
   },
+  node: {
+    fs: 'empty',
+  },
   module: {
     rules: [
       {

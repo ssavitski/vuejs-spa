@@ -43,6 +43,7 @@
     "image-webpack-loader": "^4.3.1",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
+    "systemjs": "^0.21.4",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.16.1",
