@@ -12,7 +12,7 @@
         Front-end
       </router-link>
 
-      <router-link to="/category/mobile"
+      <router-link :to="{ name: 'category', params: { id: 'mobile' } }"
                    exact
                    class="nav-item is-tab">
         Mobile
