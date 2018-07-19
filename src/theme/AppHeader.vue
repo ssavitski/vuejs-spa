@@ -1,10 +1,21 @@
 <template>
   <nav class="nav has-shadow">
     <div class="container">
-      <a href="/">
+      <router-link to="/" exact>
         <img src="./../img/logo.png"
              alt="Vue SPA" />
-      </a>
+      </router-link>
+
+      <router-link to="/"
+                   exact
+                   class="nav-item is-tab">
+        Home
+      </router-link>
+
+      <router-link to="/login"
+                   class="nav-item is-tab">
+        Login
+      </router-link>
     </div>
   </nav>
 </template>
